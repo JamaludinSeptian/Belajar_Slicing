@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 870px;
+  background-color: #f3f5fc;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* Navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 45px;
+  margin-top: 45px;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-logo img {
+  width: 59px;
+  height: 28px;
+  margin-right: 12px;
+}
+.nav-logo h3 {
+  font-size: 18;
+  font-weight: 400;
+}
+.nav-items {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items ul {
+  list-style: none;
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #0a1329;
+}
+.btn-items button {
+  padding: 16px 32px;
+  border-radius: 100px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.btn-items .btn-secondary {
+  background-color: transparent;
+  color: #315bc7;
+}
+.btn-items .btn-primary {
+  background-color: #315bc7;
+  color: #ffffff;
+}
+
+/* Hero */
+.row {
+  display: flex;
+  margin-top: 137px;
+}
+.col-right,
+.col-left {
+  flex-basis: 50%;
+}
+.col-left .btn {
+  padding: 9px 16px;
+  text-transform: uppercase;
+  color: #f44336;
+  background-color: #ffebee;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+}
+.col-left h1 {
+  font-size: 66px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 26px;
+}
+.col-left p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #0a132969;
+  margin-bottom: 52px;
+  line-height: 30px;
+}
