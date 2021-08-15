@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png"/>
     <title>DroneshopID</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,7 +37,7 @@
             </nav>
 
             <div class="row">
-                <div class="col-left">
+                <div class="col-left" data-aos="fade-up" data-aos-duration="1000">
                     <button class="btn" type="submit">get 25% discount</button>
                     <h1>Representing <br>Drone Light</h1>
                     <p>Look up the sky and beautiful world with simple navigation. 
@@ -45,7 +47,7 @@
                             <button class="btn-primary" type="submit">GET NOW</button>
                         </div>
                 </div>
-                <div class="col-right">
+                <div class="col-right" data-aos="fade-down" data-aos-duration="1000">
                     <img src="images/hero-image.png">
                 </div>
             </div>
@@ -55,14 +57,14 @@
    <!-- Content -->
     <div class="row-content">
         <div class="col-content1" >
-                <div class="content1">
+                <div class="content1" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="600"  once: true>
                     <h1>Ultra Light</h1>
                     <p>Drone move faster with weighing <br>
                      component <span>under 200 g</span></p>    
                 </div>
         </div>
         <div class="col-content2">
-                <div class="content2">
+                <div class="content2" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="600"  once: true>
                     <h1>Best Resolution</h1>
                     <p>Take a beautiful view with best camera <br>
                     <span>up to 4K Camera Resolution</span></p>    
@@ -74,25 +76,25 @@
     <section class="benefit">
         <div class="bg-benefit">
             <div class="description-benefit">
-                <h1>Why Drone Light?</h1>
-                <p>We provide a best self drone easy to use and operate. With
+                <h1 data-aos="fade-down" data-aos-duration="1000"  once: false>Why Drone Light?</h1>
+                <p data-aos="fade-up" data-aos-duration="1000"  once: false>We provide a best self drone easy to use and operate. With
                     <br> auto pilot, the device will take a beautiful view for the <br>
                     best of flying operation.</p>
             </div>
             <div class="items">
-                <div class="items-list">
+                <div class="items-list" data-aos="fade-right" data-aos-duration="1000"  once: false>
                     <h2>4K</h2>
                     <p>Camera <br> Resolution</p>
                 </div>
-                <div class="items-list">
+                <div class="items-list" data-aos="fade-right" data-aos-duration="1000"  once: false>
                     <h2>2 TB</h2>
                     <p>Storage <br> Capacity</p>
                 </div>
-                <div class="items-list">
+                <div class="items-list" data-aos="fade-left" data-aos-duration="1000"  once: false>
                     <h2>60 m/s</h2>
                     <p>Super <br> Max Speed</p>
                 </div>
-                <div class="items-list">
+                <div class="items-list" data-aos="fade-left" data-aos-duration="1000"  once: false>
                     <h2>30 mins</h2>
                     <p>Long Flight <br> Time</p>
                 </div>
@@ -109,8 +111,8 @@
         <div class="video-title">
             <h1>4K video shot on our <br> Drone Light</h1>
         </div>
-        <div class="video-content">
-            <a href="https://www.youtube.com/watch?v=I2QC7J7OP4c&ab_channel=CapitalFM" target="_blank">
+        <div class="video-content" data-aos="zoom-in" data-aos-duration="1000"  once: false>
+            <a href="https://www.youtube.com/watch?v=7w9Pe1mzhcE&ab_channel=free4khdvideosnocopyright" target="_blank">
                 <img class="mask-group" src="images/Mask Group.png">
                 <img class="play-button" src="images/Play Button.png">
             </a>
@@ -125,7 +127,9 @@
                 make every moment flying operation become unforgettable.</p>
         </div>
         <div class="products-card">
-            <div class="product-card">
+            <div class="product-card" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"  once: false>
                 <img src="images/mini_drone.png">
                 <div class="product-title">
                     <h2>Mini Drone</h2>
@@ -139,7 +143,9 @@
                     </div>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"  once: false>
                 <img src="images/drone_light.png">
                 <div class="product-title">
                     <h2>Drone Light</h2>
@@ -153,7 +159,9 @@
                     </div>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"  once: true>
                 <img src="images/phantom_drone.png">
                 <div class="product-title">
                     <h2>Phantom Drone</h2>
@@ -177,7 +185,7 @@
                     Are Saying</h1>
             <div class="container-card">
                 <div class="testimonial-card">
-                    <h3>“With high resolution camera, <br>
+                    <h3 class="Test">“With high resolution camera, <br>
                         picture become clear and beautiful. <br>
                         It’s so easy to operate drone.”</h3>
                     <div class="testimonial-pic">
@@ -189,7 +197,7 @@
                     </div>
                 </div>
                 <div class="testimonial-card">
-                    <h3>“Taking high view video become <br>
+                    <h3 class="Test">“Taking high view video become <br>
                         easy and faster. Battery perfomance <br>
                         really helping for making film.”</h3>
                     <div class="testimonial-pic">
@@ -201,7 +209,7 @@
                     </div>
                 </div>
                 <div class="testimonial-card">
-                    <h3>“Making video content for my trip <br>
+                    <h3 class="Test">“Making video content for my trip <br>
                         vlog so powerful and wonderful. <br>
                         Love the video quality.”</h3>
                     <div class="testimonial-pic">
@@ -269,5 +277,11 @@
            </div>
         </div>
     </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
